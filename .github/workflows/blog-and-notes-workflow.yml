@@ -1,0 +1,32 @@
+name: Update Profile With Blog And Notes
+on:
+  schedule:
+  - cron: '0 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update-readme:
+    name: Update this repo's README with latest blog posts and notes
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Pull in blog posts
+      uses: gautamkrishnar/blog-post-workflow@v1
+      with:
+        comment_tag_name: "BLOG-POST-LIST"
+        feed_list: "https://13m0n4de.vercel.app/blog_feed.xml"
+
+    - name: Pull in notes
+      uses: gautamkrishnar/blog-post-workflow@v1
+      with:
+        comment_tag_name: "NOTE-LIST"
+        feed_list: "https://13m0n4de.vercel.app/notes_feed.xml"
+        item_exec: |
+          if (post.categories && post.categories.length > 0) {
+            post.title = post.categories.join(' > ') + ' > ' + post.title;
+          } else {
+            post.title = post.title;
+          }
