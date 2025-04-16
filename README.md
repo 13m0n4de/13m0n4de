@@ -13,5 +13,9 @@
 ### 📚 Recent Notes
 
 <!-- NOTE-LIST:START -->
-
+- [Incidents &gt; Security &gt; PowerGhost](https://13m0n4de.vercel.app/sec/incidents/powerghost.html)
+- [Malware &gt; Security &gt; PowerGhost](https://13m0n4de.vercel.app/sec/malwares/powerghost.html)
+- [USTC Hackergame 2024](https://13m0n4de.vercel.app/writeups/2024/hackergame2024.html)
+- [CVE-2020-35511](https://13m0n4de.vercel.app/sec/vulns/pngcheck/cve-2020-35511.html)
+- [vulns-2.4.0](https://13m0n4de.vercel.app/sec/vulns/pngcheck/vulns-2.4.0.html)
 <!-- NOTE-LIST:END -->
