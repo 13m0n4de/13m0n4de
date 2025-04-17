@@ -25,6 +25,6 @@ jobs:
         comment_tag_name: "NOTE-LIST"
         feed_list: "https://13m0n4de.vercel.app/notes_feed.xml"
         item_exec: |
-          if (post.nav_path_prefix) {
-            post.title = post.nav_path_prefix + ' ' + post.title;
+          if (post.categories) {
+            post.title = post.categories + ' ' + post.title;
           }
