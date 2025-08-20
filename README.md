@@ -3,7 +3,7 @@
 ### 📰 Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Refactor My Quiz APP](https://13m0n4de.vercel.app/blog/2025/05/28/refactor-my-quiz-app.html)
+- [Refactor My Quiz App](https://13m0n4de.vercel.app/blog/2025/05/28/refactor-my-quiz-app.html)
 - [Malware Analysis: PowerGhost](https://13m0n4de.vercel.app/blog/2025/04/01/malware-analysis-powerghost.html)
 - [CVE Roulette #1: pngcheck](https://13m0n4de.vercel.app/blog/2025/01/30/cve-roulette-1-pngcheck.html)
 - [Ricing My Arch Linux](https://13m0n4de.vercel.app/blog/2024/12/06/ricing-my-arch-linux.html)
