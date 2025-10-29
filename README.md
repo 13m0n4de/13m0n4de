@@ -13,9 +13,9 @@
 ### 📚 Recent Notes
 
 <!-- NOTE-LIST:START -->
-- [ Index](https://13m0n4de.vercel.app/cs/compiler/engineering_a_compiler/index.html)
 - [Security &gt; Incidents &gt; PowerGhost](https://13m0n4de.vercel.app/sec/incidents/powerghost.html)
 - [Security &gt; Malwares &gt; PowerGhost](https://13m0n4de.vercel.app/sec/malwares/powerghost.html)
 - [Writeups &gt; 2024 &gt; USTC Hackergame 2024](https://13m0n4de.vercel.app/writeups/2024/hackergame2024.html)
 - [Security &gt; Vulns &gt; pngcheck &gt; CVE-2020-35511](https://13m0n4de.vercel.app/sec/vulns/pngcheck/cve-2020-35511.html)
+- [Security &gt; Vulns &gt; pngcheck &gt; vulns-2.4.0](https://13m0n4de.vercel.app/sec/vulns/pngcheck/vulns-2.4.0.html)
 <!-- NOTE-LIST:END -->
