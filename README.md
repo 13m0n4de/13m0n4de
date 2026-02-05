@@ -4,10 +4,10 @@
 
 <!-- BLOG-POST-LIST:START -->
 - [Versu: Agents and Utility AI](https://13m0n4de.vercel.app/blog/2026/02/04/versu-agents-and-utility-ai.html)
+- [Hello, Saya Lang](https://13m0n4de.vercel.app/blog/2026/01/23/hello-saya-lang.html)
 - [Using Djot instead of Markdown in MkDocs](https://13m0n4de.vercel.app/blog/2025/11/06/using-djot-instead-of-markdown-in-mkdocs.html)
 - [Functional Pipeline Programming in Python](https://13m0n4de.vercel.app/blog/2025/10/23/functional-pipeline-programming-in-python.html)
 - [Markdown to PDF with Pandoc and Typst](https://13m0n4de.vercel.app/blog/2025/07/20/markdown-to-pdf-with-pandoc-and-typst.html)
-- [Refactor My Quiz App](https://13m0n4de.vercel.app/blog/2025/05/28/refactor-my-quiz-app.html)
 <!-- BLOG-POST-LIST:END -->
 
 ### 📚 Recent Notes
