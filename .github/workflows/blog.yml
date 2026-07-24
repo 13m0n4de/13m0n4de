@@ -18,3 +18,4 @@ jobs:
       with:
         comment_tag_name: "BLOG-POSTS"
         feed_list: "https://13m0n4de.pages.dev/rss.xml"
+        max_post_count: 10
