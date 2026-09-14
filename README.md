@@ -21,4 +21,4 @@
 
 ### Contributions
 
-[![GitAll contributions](https://gitall.app/embed/13m0n4de.svg?github=13m0n4de&gitea=13m0n4de&instance=https%3A%2F%2Fcodeberg.org)](https://gitall.app)
+[![GitAll contributions](https://gitall.app/embed/13m0n4de.svg?github=13m0n4de&gitlab=13m0n4de&gitea=13m0n4de&instance=https%3A%2F%2Fcodeberg.org)](https://gitall.app)
