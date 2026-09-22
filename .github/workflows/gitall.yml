@@ -1,0 +1,33 @@
+name: Update GitAll SVG
+on:
+  schedule:
+  - cron: '37 4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update-svg:
+    name: Update GitAll SVG
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Download SVG
+      run: |
+        curl -f 'https://gitall.app/embed/13m0n4de.svg?github=13m0n4de&gitlab=13m0n4de&gitea=13m0n4de&instance=https%3A%2F%2Fcodeberg.org' -o /tmp/gitall.svg
+        mv /tmp/gitall.svg assets/gitall.svg
+
+    - name: Commit changes
+      run: |
+        git add assets/gitall.svg
+
+        if git diff --cached --quiet; then
+          echo 'SVG has not changed'
+          exit 0
+        fi
+
+        git config user.name 'github-actions[bot]'
+        git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+        git commit -m 'chore: update GitAll SVG'
+        git push
