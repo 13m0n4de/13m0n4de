@@ -7,6 +7,7 @@
 ### Recent Blog Posts
 
 <!-- BLOG-POSTS:START -->
+- [在 Linux 上用 Windows IDA Pro 配合 AI 辅助逆向](https://13m0n4de.pages.dev/posts/ida_pro_linux_ai_reversing.html)
 - [Saya Lang: Optional](https://13m0n4de.pages.dev/posts/saya_lang_optional.html)
 - [How Does eza Know I&#39;m in the Terminal](https://13m0n4de.pages.dev/posts/how_does_eza_know_im_in_the_terminal.html)
 - [验证您是人类才能进入 AI 生成网站](https://13m0n4de.pages.dev/posts/verify_you_are_human_for_ai_sites.html)
@@ -16,7 +17,6 @@
 - [卡拉彼丘 hpatchz 的 -c 选项](https://13m0n4de.pages.dev/posts/calabiyau_launcher_hpatchz_c_option.html)
 - [自动化部署 Org 博客](https://13m0n4de.pages.dev/posts/auto_publish_org_blog.html)
 - [卡拉彼丘官方启动器是一个小型黑洞](https://13m0n4de.pages.dev/posts/calabiyau_launcher_is_a_black_hole.html)
-- [将博客迁移到 Org-mode](https://13m0n4de.pages.dev/posts/migrating_blog_to_org_mode.html)
 <!-- BLOG-POSTS:END -->
 
 ### Contributions
