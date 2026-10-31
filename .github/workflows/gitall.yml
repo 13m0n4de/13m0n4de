@@ -13,10 +13,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Download SVG
-      run: |
-        curl -f 'https://gitall.app/embed/13m0n4de.svg?github=13m0n4de&gitlab=13m0n4de&gitea=13m0n4de&instance=https%3A%2F%2Fcodeberg.org' -o /tmp/gitall.svg
-        mv /tmp/gitall.svg assets/gitall.svg
+    - name: Fetch and recolor GitAll SVG
+      run: pipx run scripts/gitall.py
 
     - name: Commit changes
       run: |
