@@ -15,7 +15,6 @@ RAMP = (0.4, 0.62, 0.82, 1.0)
 FLAVORS = {
     "light": {
         "base": "#eff1f5",
-        "mantle": "#e6e9ef",
         "surface0": "#ccd0da",
         "overlay1": "#8c8fa1",
         "subtext0": "#6c6f85",
@@ -23,7 +22,6 @@ FLAVORS = {
     },
     "dark": {
         "base": "#24273a",
-        "mantle": "#1e2030",
         "surface0": "#363a4f",
         "overlay1": "#8087a2",
         "subtext0": "#a5adcb",
@@ -39,7 +37,7 @@ def blend(a, b, t):
 
 def palette(flavor):
     return {
-        "bg": flavor["mantle"],
+        "bg": flavor["base"],
         "mut": flavor["subtext0"],
         "wm": flavor["overlay1"],
         "wl": flavor["teal"],
